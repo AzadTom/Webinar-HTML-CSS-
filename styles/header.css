@@ -1,0 +1,361 @@
+/* header */
+
+
+.header-text-content-container {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2rem 1rem;
+
+}
+
+
+.header-text-content {
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.header-text-content button {
+
+    background-color: #7B1FA2;
+    color: white;
+
+    border-radius: 100px;
+
+    padding: 1rem 2rem;
+
+    border: none;
+
+    font-size: 2rem;
+    
+}
+
+.header-text-content button span{
+
+    color: yellow;
+
+}
+
+
+.header-text-content p {
+
+    color: #E86D2B;
+
+    font-size: 3rem;
+
+    max-width: 900px;
+
+    width: 100%;
+
+
+
+}
+
+.header-text-content p span:nth-child(1) {
+
+    background-color: yellow;
+    font-style: italic;
+    color: black;
+
+}
+
+.header-text-content p span:nth-child(2)
+{
+
+    color: black;
+    text-decoration: underline;
+
+}
+
+.heroImg-content-container{
+
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+
+.heroImg
+{
+    
+    border-radius: 2rem;
+   
+
+}
+
+.heroImg img {
+
+   
+    width: 300px;
+    box-shadow: 0px 8px 6px -3px rgba(152, 180, 198, 0.36);
+    height: 100%;
+
+    border-radius: 2rem;
+
+}
+
+@media(min-width:1000px){
+
+    .heroImg img {
+
+        width: 500px;
+        box-shadow: 0px 8px 6px -3px rgba(152, 180, 198, 0.36);
+        height: 100%;
+    
+        border-radius: 2rem;
+    
+    }
+
+    
+
+
+}
+
+.heroImg-form-parent-container{
+
+    flex: 1;
+}
+
+.heroImg-title {
+
+
+    box-shadow: 0px 8px 6px -3px rgba(152, 180, 198, 0.36);
+ 
+
+    color: #7B1FA2;
+    background-color: white;
+    text-align: center;
+
+
+
+    font-size: 2rem;
+
+    border-radius: 1.2rem;
+
+    padding: 1rem 2rem;
+
+    z-index: 999;
+    margin-top: -2.2rem;
+
+}
+
+
+.heroImg-title p {
+
+    font-size: 1.2rem;
+
+    color: black;
+
+}
+
+.hero-parent-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 2rem;
+    
+}
+
+.hero-container {
+
+
+    max-width: 1200px;
+    width: 100%;
+
+    display: flex;
+    gap: 1.2rem;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    
+
+}
+
+
+
+.heroImg-form-container{
+
+    padding: 1.2rem;
+
+    width: 100%;
+
+    border: 0.1rem  dashed #E86D2B;
+
+}
+
+.heroImg-form-container h2:nth-child(1)
+{
+    color: #7B1FA2;
+    font-weight: bold;
+}
+
+.heroImg-form-container h2:nth-child(3)>span
+{
+    color: #E86D2B;
+    font-weight: bold;
+}
+
+.duration {
+
+    display: flex;
+    gap: 2rem;
+
+    
+
+    margin-top: 1.2rem;
+
+}
+
+
+@media(max-width:768px)
+{
+    .hero-container{
+
+        flex-direction: column;
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .heroImg img {
+
+        width: 300px;
+    
+    }
+}
+
+
+
+@media(max-width:768px){
+
+
+    .duration{
+
+        flex-direction: column;
+    }
+}
+
+.duration span {
+
+    box-shadow: 0px 8px 6px -3px rgba(152, 180, 198, 0.36);
+    padding: 1rem 2rem;
+    background-color: white;
+    border-radius: 1.2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.date {
+
+    box-shadow: 0px 8px 6px -3px rgba(152, 180, 198, 0.36);
+    padding: 1rem 2rem;
+    background-color: white;
+    border-radius: 1.2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    margin-top: 1.2rem;
+
+
+}
+
+form  {
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+
+
+}
+
+input {
+
+    width: 100%;
+    padding: 1rem 2rem;
+
+    font-size: 1.4rem;
+    border: none;
+    background-color: white;
+
+    border: 1px solid black;
+
+}
+
+input:focus
+{
+
+    outline: 1px solid blue;
+}
+
+.register{
+
+    font-size: 24px;
+    border: none;
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.register span {
+
+    color: #dcd3d3;
+    font-size: 16px;
+}
+
+
+.more-details{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+    padding: 1rem;
+
+    font-size: 1.6rem;
+    color: black
+
+}
+
+.more-details h2 {
+
+    font-weight: bold;
+    color: #7B1FA2;
+
+}
+
+
+
+
+.more-details p span{
+
+    font-weight: bold;
+
+}
+
+.more-details-row{
+
+    display: flex;
+    gap: 0.6rem;
+}

@@ -1,0 +1,95 @@
+
+
+
+
+/* result-review */
+
+
+.result-review{
+
+    padding: 3rem;
+    padding-left: 2rem;
+    -right: 2rem;
+
+    background-color: white;
+   
+}
+
+.result-review-heading h2{
+
+
+    font-weight: bold;
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+
+    margin-bottom: 2rem;
+
+
+}
+
+.result-review-heading h2 span{
+
+    color: #E86D2B;
+
+}
+
+
+.result-review-container{
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+
+
+    
+
+}
+
+.result-review-container img{
+
+    width: 100%;
+
+
+}
+
+
+.result-review-child-container{
+
+    max-width: 1200px;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+
+@media(max-width:768px){
+
+    .result-review-child-container{
+
+       grid-template-columns: 1fr;
+       max-width: 100%;
+    
+    }
+}
+
+.result-review-child-grid-container{
+
+    max-width: 1200px;
+
+    columns: 2;
+   
+}
+
+@media(max-width:768px){
+
+    .result-review-child-grid-container{
+
+        max-width: 100%;
+        columns: 1;
+    }
+}

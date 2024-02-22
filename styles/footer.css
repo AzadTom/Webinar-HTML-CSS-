@@ -1,0 +1,57 @@
+/* FOOTER */
+
+footer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 2rem;
+
+}
+
+.footer-img {
+
+    width: 200px;
+
+}
+
+
+.footer-content {
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+
+    font-size: 0.8rem;
+
+    text-align: center;
+    align-items: center;
+
+
+    max-width: 800px;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    color: #b3b3b3;
+
+
+}
+
+.footer-content .footer-heading{
+
+    color: black;
+
+}
+
+
+@media(max-width:768px){
+
+    .footer-content{
+
+        margin: 3rem;
+        
+    }
+}

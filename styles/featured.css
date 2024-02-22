@@ -1,0 +1,61 @@
+/* FeaturedOn */
+
+
+section.featured {
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background-color: white;
+
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+
+}
+
+.featured h2 {
+
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+
+
+
+.featured .image-container{
+
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media(max-width:768px){
+
+    .featured .image-container{
+
+        flex-direction: column;
+
+    }
+}
+
+.featured img {
+
+
+    max-width: 200px;
+    width: 100%;
+    background-size: contain;
+    object-fit: cover;
+
+
+}

@@ -1,0 +1,38 @@
+/* Shining-start */
+
+
+.shing-star h2 {
+
+
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.shing-star img {
+
+    width: 100%;
+
+}
+
+.shing-star .img-grid{
+
+    display: grid;
+
+    margin: 3rem;
+
+    gap: 2rem;
+
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+@media(max-width:768px){
+
+    .shing-star .img-grid{
+
+        grid-template-columns: 1fr;
+
+    }
+}
